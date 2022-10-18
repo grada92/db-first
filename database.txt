@@ -1,0 +1,18 @@
+DATABASE
+
+CAR
+
+ID              |   - integer  | -PRIMARY KEY - INT  - NOT NULL - AUTOINCREMENT -UNIQUE
+BRAND           |   - string   | - VARCHAR (25)     - NOT NULL 
+MODEL           |   - string   | - VARCHAR (80)     - NOT NULL 
+COLOR           |   - string   | -  VARCHAR(10)      - NULL
+YEAR            |   - date     | - YEAR(YYYY)        - NOT NULL 
+KM              |   - integr   |  - MEDIUMINT        - NOT NULL 
+PRICE_euro      |   - decimal  |  - DECIMAL(8,2)     - NOT NULL 
+CITY'           |   - String   |  - VARCHAR (255)    -  NULL 
+DOORS           |   - integer  | - TINYINT           -  NULL 
+FUEL            |   - string   |  - VARCHAR (255)    -  NOT NULL 
+POWER_Cv        |   - Integer  | - DECIMAL (3,2)     -  NOT NULL   
+PREVIOUS OWNERS |   - integer  | - TINYINT           -  NULL 
+SEATS           |   - Integer  | - TINYINT           -  NULL 
+CHANGE CAR      |   - string   | - VARCHAR (50)     -  NULL - DEFAULT("Cambio manuale")
